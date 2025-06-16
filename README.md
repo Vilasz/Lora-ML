@@ -16,10 +16,10 @@ O número de parâmetros treináveis para esta única matriz é $d \times k$. Em
 
 ### 2.2. A Hipótese Central: Posto Intrínseco Baixo
 
-O artigo postula que a matriz de atualização $\Delta W$ tem um **"posto intrínseco baixo"** (low intrinsic rank). Matematicamente, isso significa que o posto da matriz, $\operatorname{rank}(\Delta W)$, é muito menor que suas dimensões:
+O artigo postula que a matriz de atualização $\Delta W$ tem um **"posto intrínseco baixo"** (low intrinsic rank). Matematicamente, isso significa que o posto da matriz, $rank(\Delta W)$, é muito menor que suas dimensões:
 
 $$
-\operatorname{rank}(\Delta W) \ll \min(d, k)
+rank(\Delta W) \ll \min(d, k)
 $$
 
 Isso sugere que a atualização de pesos, embora representada em um espaço de alta dimensão, pode ser efetivamente descrita por um número muito menor de vetores de base.
